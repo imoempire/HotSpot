@@ -19,7 +19,7 @@ const Header = () => {
           <span>Spots</span>
         </div>
         <div>
-          <span>In the City</span>
+          <span>around you</span>
         </div>
         </div>
       </div>
