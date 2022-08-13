@@ -1,0 +1,109 @@
+:root {
+   --height: 20rem;
+}
+
+.card {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   padding: 0rem 1rem;
+   border-radius: 1rem;
+   color: #fff;
+   height: var(--height);
+   width: 15rem;
+   overflow: hidden;
+}
+
+.top {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   background-color: var(--background-color);
+   width: 3rem;
+   height: 2rem;
+   padding: .5rem 0;
+}
+
+.card:hover{
+   opacity: 0.6;
+   transition: .3s;
+}
+
+.cardItems {
+   display: flex;
+   flex-direction: column;
+   margin-top: 13rem;
+   background-Color: rgba(0,0,0,0.5);
+   width: 13rem;
+   border-radius: 1rem;
+}
+
+.cardItems>.info {
+   color: #000;
+}
+
+
+.cardName {
+   display: flex;
+   align-items: center;
+}
+
+.cardName>span {
+   padding: 0 0.2rem;
+}
+
+.cardItems>.info>.cardName>span:nth-child(1) {
+   color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+}
+
+.cardItems>.info>.cardName>span:nth-child(2) {
+   color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.cardLocation {
+   display: flex;
+   align-items: center;
+}
+
+.cardLocation>span {
+   padding: 0 0.2rem;
+
+}
+
+.cardItems>.info>.cardLocation>span:nth-child(1) {
+   color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+}
+
+.cardItems>.info>.cardLocation>span:nth-child(2) {
+   color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.cardRates {
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+.cardItems>.cardRates>span:nth-child(1) {
+   color: gold;
+   font-size: 1.2rem;
+}
+
+.cardItems>.cardRates>span:nth-child(2) {
+   color: rgb(255, 255, 255);
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.cardRates>span {
+   padding: 0 0.2rem;
+
+}
+

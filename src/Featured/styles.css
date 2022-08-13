@@ -1,0 +1,21 @@
+
+
+
+.Featured {
+   display: flex;
+   flex-direction: column;
+   padding: 2rem 10rem;
+   gap: 1rem;
+}
+
+.Title{
+   font-size: 2rem;
+   color: #fff;
+   padding: 0 2rem;
+}
+
+.FeaturedCard {
+   display: flex;
+   gap: 1.5rem;
+   padding: 0.5rem 2rem;
+}
