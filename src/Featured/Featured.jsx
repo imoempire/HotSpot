@@ -5,7 +5,8 @@ import './styles.css'
 
 const Featured = () => {
   return (
-    <div className="Featured">
+    <div className="container">
+      <div className="Featured">
       <div className="Title">
          <span>Featured</span>
       </div>
@@ -14,6 +15,7 @@ const Featured = () => {
          return <Card key={id} name={name} rate={rates} location={location} />;
       })}
       </div>
+    </div>
     </div>
   );
 };

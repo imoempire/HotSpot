@@ -16,3 +16,8 @@
   scroll-behavior: smooth;
   font-family: var(--font-alt)
 }
+
+.container {
+  display: flex;
+  padding: 2rem 10rem;
+}

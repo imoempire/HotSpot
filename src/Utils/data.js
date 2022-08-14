@@ -23,10 +23,4 @@ export const data = [
    location: "Madina, Accra",
    id: 23
  },
- {
-   name: "Melcom",
-   rates: '3.8',
-   location: "Madina, Accra",
-   id: 8
- },
 ];

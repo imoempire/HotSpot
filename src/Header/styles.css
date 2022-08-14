@@ -1,11 +1,15 @@
 .header {
    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
    padding: 2rem 2rem;
+   width: 100%;
 }
 
 /* Header */
 .headerText {
-   flex: 6;
+   flex: 5;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -32,9 +36,8 @@
 /* Forms */
 
 .forms {
-   flex: 5;
+   flex: 6;
    padding: 0 10rem;
-
 }
 
 .contact__form-group {

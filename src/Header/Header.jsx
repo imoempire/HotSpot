@@ -9,7 +9,9 @@ const Header = () => {
   };
 
   return (
-    <div className="header">
+    <div className="container">
+      <div className="header">
+
       <div className="headerText">
         <div className="headerInner">
         <div>
@@ -23,6 +25,7 @@ const Header = () => {
         </div>
         </div>
       </div>
+
       <div className="forms">
         <form ref={form} className="contact__form" onSubmit={sendEmail}>
           <div className="contact__form-group">
@@ -43,12 +46,13 @@ const Header = () => {
               />
             </div>
           </div>
-
           <button type="submit" className="btns">
             Search
           </button>
         </form>
       </div>
+
+    </div>
     </div>
   );
 };

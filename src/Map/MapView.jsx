@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class MapView extends Component {
   render() {
-    return (
-      <div>MapView</div>
-    )
+    return <div className="container">MapView</div>;
   }
 }

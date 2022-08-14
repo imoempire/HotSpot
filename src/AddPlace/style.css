@@ -1,0 +1,38 @@
+.add {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem 2rem;
+   background-color: var(--content-color);
+}
+
+.Text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.Text > .text {
+   font-size: 3rem;
+   color: #fff;
+   text-align: center;
+}
+
+.Text > .btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2rem;
+   background-color: var(--font-hover);
+   color: #fff;
+   font-size: 1rem;
+   border-radius: 10px;
+   height: 3rem;
+   width: 10rem;
+}
+
+.Image>img {
+   width: 40rem;
+   border-radius: 10px;
+}

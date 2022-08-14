@@ -3,6 +3,7 @@ import "./styles.css";
 import { AiFillStar } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { MdOutlineNoFood } from "react-icons/md";
+import bg from "../../assets/place.jpg"
 
 const Card = ({ name, rate, location }) => {
   return (
@@ -10,7 +11,7 @@ const Card = ({ name, rate, location }) => {
       className="card"
       style={{
         backgroundImage:
-          "url('https://continenttours.com/wp-content/uploads/2021/08/The-Buka-African-Restaurant.jpg')",
+          `url(${bg})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
