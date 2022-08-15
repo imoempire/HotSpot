@@ -15,16 +15,19 @@ const Footer = () => {
             <div className="contact">
                <ul className="contents-list">
                   <ul className="list">
+                    <li>Pages</li>
                      <li>Home</li>
                      <li>About</li>
                      <li>Location</li>
                   </ul>
                   <ul className="list">
+                    <li>Contact</li>
                      <li>email</li>
                      <li>Phone</li>
                      <li>WhatsApp</li>
                   </ul>
                   <ul className="list">
+                    <li>Social Links</li>
                      <li>Facebook</li>
                      <li>Twitter</li>
                      <li>Instagram</li>
