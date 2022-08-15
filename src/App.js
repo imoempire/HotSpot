@@ -3,7 +3,7 @@ import './App.css';
 import Featured from './Featured/Featured';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import MapView from './Map/MapView';
+import MapCont from './Map/MapCont';
 import Navbar from './Navbar/Navbar';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Featured/>
-      <MapView/>
+      <MapCont/>
       <Add/>
       <Footer/>
     </div>
