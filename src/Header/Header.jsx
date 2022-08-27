@@ -11,12 +11,11 @@ const Header = () => {
   const handleSearch = (e) => {
     e.preventDefault();
     const result = itemList.filter(function (freelancer) {
-      return freelancer.city === area;
+      const word = freelancer.city.toLowerCase();
+      return word === area.toLowerCase();
     });
     setFilteredList(result);
   };
-
-  console.log(filteredList);
 
   return (
     <div className="container">
@@ -61,9 +60,11 @@ const Header = () => {
         </div>
 
         <div>
-          <h1 style={{ color: "white" }}>Your search result</h1>
+          {filteredList.length !== 0 ? (
+            <h1 style={{ color: "white" }}>Your search result</h1>
+          ) : null}
           {filteredList.length === 0 ? (
-            <div>empty</div>
+            null
           ) : (
             <div className="searchResult grid">
               {filteredList.map((item) => (

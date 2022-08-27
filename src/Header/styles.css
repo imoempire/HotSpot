@@ -71,13 +71,12 @@
    height: 100%;
    box-shadow: var(--shadow);
    background-color: var(--content-color);
-   color: var(--text-color);
+   color: white;
    border: none;
    outline: none;
    border-radius: 0.7rem;
    padding: 0.625rem 1.875rem;
    z-index: 1;
-
 }
 
 .contact__form-input::placeholder {
@@ -119,21 +118,22 @@
 
 .grid {
    display: grid;
- }
+}
 
 .searchResult {
    grid-template-columns: repeat(4, 1fr);
    column-gap: 1.875rem;
-   background-color: var(--content-color);
 }
 
 .searchCard {
-padding: 2rem 2rem;
    display: flex;
    flex-direction: column;
+   padding: 2rem 2rem;
+   background-color: var(--content-color);
+   border-radius: 10px;
 }
 
-.searchCard > h1 {
+.searchCard>h1 {
    font-size: 1rem;
    color: white;
 }
