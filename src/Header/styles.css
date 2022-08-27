@@ -1,16 +1,27 @@
 .header {
    display: flex;
    align-items: center;
+   flex-direction: column;
    justify-content: center;
-   gap: 2rem;
+   gap: 4rem;
    padding: 2rem 2rem;
    width: 100%;
 }
 
+.inners {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 2rem;
+   justify-content: center;
+}
+
 /* Header */
 .headerText {
-   flex: 5;
+   flex: 10;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
 }
@@ -36,7 +47,7 @@
 /* Forms */
 
 .forms {
-   flex: 6;
+   flex: 5;
    padding: 0 10rem;
 }
 
@@ -104,4 +115,25 @@
    background-color: black;
    border: none;
    outline: none;
+}
+
+.grid {
+   display: grid;
+ }
+
+.searchResult {
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 1.875rem;
+   background-color: var(--content-color);
+}
+
+.searchCard {
+padding: 2rem 2rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.searchCard > h1 {
+   font-size: 1rem;
+   color: white;
 }
